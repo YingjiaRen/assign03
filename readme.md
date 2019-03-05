@@ -1,4 +1,4 @@
-# Weather application
+﻿# Weather application
 
 ![Weather application](display/weather_app_assign.png)
 
@@ -1030,6 +1030,8 @@ I will use the following class in my MainActivity.java file inside my MainActivi
 It is important to note here that the information retrieved from the server based on the testing link above is just the string 27. Further parsing might be required if the return from the server was of a different format.
 
 应该注意到，在上述的测试连接中从服务器取回的信息只是一个字符串（string）27。 如若服务器返回了不同格式的信息则可能需要我们进行更进一步的字符解析.
+
+![image](https://github.com/YingjiaRen/Game/blob/master/gamedemo.gif)
 
 So far, I can download the latest weather temperature from the server as long as I have Internet access. What will happen if the device does not have access to the Internet?
 
