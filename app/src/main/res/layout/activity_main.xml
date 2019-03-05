@@ -10,6 +10,7 @@
     tools:context="mg.studio.weatherappdesign.MainActivity">
 
     <TextView
+        android:id="@+id/todayText"
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_marginTop="10dp"
@@ -91,7 +92,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center"
-                    android:text="Location"
+                    android:text="Chongqing"
                     android:textColor="@android:color/white"
                     android:textStyle="bold" />
 
@@ -114,7 +115,7 @@
 
 
                 <TextView
-                    android:id="@+id/temperature_of_the_day"
+                    android:id="@+id/todaytemperature"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:gravity="right"
@@ -126,8 +127,8 @@
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:layout_alignRight="@id/temperature_of_the_day"
-                    android:layout_alignTop="@id/temperature_of_the_day"
+                    android:layout_alignRight="@id/todaytemperature"
+                    android:layout_alignTop="@id/todaytemperature"
                     android:gravity="right"
                     android:text="°C"
                     android:textColor="@android:color/white"
@@ -171,11 +172,13 @@
             android:orientation="vertical">
 
             <ImageView
+                android:id="@+id/nextImg1"
                 android:layout_width="48dp"
                 android:layout_height="48dp"
                 app:srcCompat="@drawable/rainy_small" />
 
             <TextView
+                android:id="@+id/nextText1"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:gravity="center"
@@ -192,11 +195,13 @@
             android:orientation="vertical">
 
             <ImageView
+                android:id="@+id/nextImg2"
                 android:layout_width="48dp"
                 android:layout_height="48dp"
                 app:srcCompat="@drawable/partly_sunny_small" />
 
             <TextView
+                android:id="@+id/nextText2"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:gravity="center"
@@ -213,11 +218,13 @@
             android:orientation="vertical">
 
             <ImageView
+                android:id="@+id/nextImg3"
                 android:layout_width="48dp"
                 android:layout_height="48dp"
                 app:srcCompat="@drawable/windy_small" />
 
             <TextView
+                android:id="@+id/nextText3"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:gravity="center"
@@ -234,11 +241,13 @@
             android:orientation="vertical">
 
             <ImageView
+                android:id="@+id/nextImg4"
                 android:layout_width="48dp"
                 android:layout_height="48dp"
                 app:srcCompat="@drawable/sunny_small" />
 
             <TextView
+                android:id="@+id/nextText4"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:gravity="center"
